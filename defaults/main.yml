@@ -1,3 +1,13 @@
-certbot_apt_repository: ppa:certbot/certbot
+certbot_dynamic_defaults:
+
+  ubuntu-20.*:
+    certbot_setup_mode: snap
+
+  apt:
+    certbot_apt_repository: ppa:certbot/certbot
+
+  default:
+    certbot_setup_mode: standard
+
 certbot_packages:
   - certbot
