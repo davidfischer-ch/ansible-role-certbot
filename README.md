@@ -1,9 +1,9 @@
-# Ansible Role certbot
+# Ansible Role Cert Bot
 
 Library of Ansible plugins and roles for deploying various services.
 See [ansible-roles](https://github.com/davidfischer-ch/ansible-roles) for additional documentation.
 
-This repository hosts the role certbot and may depend of other roles and plugins of the library.
+This repository hosts the role Cert Bot and may depend of other roles and plugins of the library.
 
 ## Status
 
