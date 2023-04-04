@@ -3,6 +3,9 @@ certbot_dynamic_defaults:
   ubuntu-20.*:
     certbot_setup_mode: snap
 
+  ubuntu-22.*:
+    certbot_setup_mode: snap
+
   apt:
     certbot_apt_repository: ppa:certbot/certbot
 
